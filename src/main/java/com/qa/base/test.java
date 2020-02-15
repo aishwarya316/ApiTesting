@@ -6,7 +6,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 
-public class test {
+public class test{
+	
+	public int RESPONSE_CODE_200=200;
+	public int RESPONSE_CODE_201=201;
 	
 	 public Properties prop;
 	

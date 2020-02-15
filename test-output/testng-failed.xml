@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.GetApiTest">
+      <class name="com.qa.tests.PostApiTest">
         <methods>
+          <include name="postAPITest"/>
           <include name="setUp"/>
-          <include name="apiTest"/>
         </methods>
-      </class> <!-- com.qa.tests.GetApiTest -->
+      </class> <!-- com.qa.tests.PostApiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
